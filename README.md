@@ -1,7 +1,7 @@
 <div>
   <a href="" class="">
-   <svg class="" width="" height="">
+  <svg class="" width="" height="">
     <use href=""><use>
-</svg>
+  </svg>
 </a>
 </div>

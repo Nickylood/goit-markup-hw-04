@@ -92,6 +92,7 @@ p {
 }
 .two-list {
     display: flex;
+    align-items: center;
     margin-left: auto;
 }
 .header-item:not(:last-child) {
@@ -111,8 +112,16 @@ p {
 .header-nav-link:focus {
     color: var(--accent-color);
 }
+.icon-vector {
+    margin-right: 10px;
+    fill: var(--text-color);
+    fill: currentColor;
+}
+
 .header-tel-link {
     display: block;
+    display: flex;
+    align-content: center;
     padding: 32px 0;
 
     font-weight: 500;
@@ -125,8 +134,16 @@ p {
 .header-tel-link:focus {
     color: var(--accent-color);
 }
+/* mail.com */
+.icon-envelope {
+    margin-right: 10px;
+    fill: var(--text-color);
+    fill: currentColor;
+}
 .header-mail-link {
     display: block;
+    display: flex;
+    align-content: center;
     padding: 32px 0;
 
     font-weight: 500;
@@ -136,9 +153,10 @@ p {
     color: var(--text-color);
 }
 .header-mail-link:hover,
-.header-mail-link:focus {
+.header-mail-link:focus  {
     color: var(--accent-color);
 }
+
 /* main */
 .visually-hidden {
     position: absolute;
